@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+     font-style: normal;
+
 }
 .header{
     min-height: 100vh;
@@ -9,4 +14,18 @@
     background-position: center;
     background-size: cover;
     position: relative;
+}
+
+.text-box{
+    width: 80%;
+    color: #fff;
+    position: relative;
+    top: 100px;
+    left: 20%;
+}
+.headtext{
+    font-size: 40px;
+}
+.plain-text{
+    font-size: 25px;
 }
